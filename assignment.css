@@ -1,0 +1,448 @@
+@font-face {
+    font-family: helvatica;
+    src: url(./helvetica-255/Helvetica-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: helvatica;
+} 
+html ,body {
+    height: 100%;
+    background: linear-gradient(135deg, #f857a6 0%,#ee9ca6 0%, #ff5858 100% );
+    width: 100%;
+}
+header h1 {
+    text-align: center;
+    font-family: helvatica;
+    text-transform: capitalize;
+    color: black;
+    padding-top: 10px;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+        flex-wrap: wrap;
+      gap: 20px;
+}
+#card1 {
+    margin-top: 10px;
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+#card1 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card1 h3 {
+    text-transform: capitalize;
+   text-align: center;
+       font-size: 25px;
+}
+#card1 p {
+    text-transform: capitalize;
+   text-align: center;
+}
+#card1 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
+#card2 {
+        margin-top: 10px;
+  
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+#card2 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card2 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+   text-align: center;
+}
+#card2 p {
+    text-transform: capitalize;
+   text-align: center;
+    text-overflow: hidden;
+}
+#card2 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
+#card3 {
+        margin-top: 10px;
+  
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+#card3 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card3 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+   text-align: center;
+}
+#card3 p {
+    text-transform: capitalize;
+   text-align: center;
+    text-overflow: hidden;
+}
+#card3 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
+#card4 {
+        margin-top: 10px;
+  
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+#card4 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card4 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+   text-align: center;
+}
+#card4 p {
+    text-transform: capitalize;
+   text-align: center;
+    text-overflow: hidden;
+}
+#card4 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
+#card5 {
+        margin-top: 10px;
+  
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+#card5 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card5 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+   text-align: center;
+}
+#card5 p {
+    text-transform: capitalize;
+   text-align: center;
+    text-overflow: hidden;
+}
+#card5 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
+#card6 {
+        margin-top: 10px;
+  
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+#card6 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card6 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+   text-align: center;
+}
+#card6 p {
+    text-transform: capitalize;
+   text-align: center;
+    text-overflow: hidden;
+}
+#card6 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
+
+#card7 {
+        margin-top: 10px;
+  
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+#card7 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card7 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+   text-align: center;
+}
+#card7 p {
+    text-transform: capitalize;
+   text-align: center;
+    text-overflow: hidden;
+}
+#card7 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
+
+#card8 {
+        margin-top: 10px;
+  
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+#card8 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card8 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+   text-align: center;
+}
+#card8 p {
+    text-transform: capitalize;
+   text-align: center;
+    text-overflow: hidden;
+}
+#card8 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
+#card9 {
+        margin-top: 10px;
+  
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+#card9 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card9 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+   text-align: center;
+}
+#card9 p {
+    text-transform: capitalize;
+   text-align: center;
+    text-overflow: hidden;
+}
+#card9 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
+
+#card10 {
+        margin-top: 10px;
+  
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 4px 12px 0 #3f51b5;
+    background:linear-gradient(135deg , #90caf9 0%, #283593 100%);
+    color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+    
+}
+#card10 img {
+    height: 100px;
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+#card10 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+   text-align: center;
+}
+#card10 p {
+    text-transform: capitalize;
+   text-align: center;
+    text-overflow: hidden;
+}
+#card10 button {
+    padding:10px 20px ;
+    border-radius: 20px;
+    border: none;
+   background: linear-gradient(135deg , #ff6b35 0%, #ff9065 100%);
+   color: white;
+   text-transform: capitalize;
+}
