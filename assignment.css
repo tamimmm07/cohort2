@@ -46,6 +46,7 @@ main {
     height: 100px;
     width: 100px;
     clip-path: circle(50% at 50% 50%);
+      object-fit: cover;
     
 }
 #card1 h3 {
@@ -87,6 +88,7 @@ main {
     height: 100px;
     width: 100px;
     clip-path: circle(50% at 50% 50%);
+      object-fit: cover;
     
 }
 #card2 h3 {
@@ -129,6 +131,7 @@ main {
     height: 100px;
     width: 100px;
     clip-path: circle(50% at 50% 50%);
+    object-fit: cover;
     
 }
 #card3 h3 {
@@ -170,6 +173,7 @@ main {
 #card4 img {
     height: 100px;
     width: 100px;
+      object-fit: cover;
     clip-path: circle(50% at 50% 50%);
     
 }
@@ -212,6 +216,7 @@ main {
 #card5 img {
     height: 100px;
     width: 100px;
+      object-fit: cover;
     clip-path: circle(50% at 50% 50%);
     
 }
@@ -254,6 +259,7 @@ main {
 #card6 img {
     height: 100px;
     width: 100px;
+      object-fit: cover;
     clip-path: circle(50% at 50% 50%);
     
 }
@@ -298,6 +304,7 @@ main {
     height: 100px;
     width: 100px;
     clip-path: circle(50% at 50% 50%);
+      object-fit: cover;
     
 }
 #card7 h3 {
@@ -341,6 +348,7 @@ main {
     height: 100px;
     width: 100px;
     clip-path: circle(50% at 50% 50%);
+         object-fit: cover;
     
 }
 #card8 h3 {
@@ -383,6 +391,7 @@ main {
     height: 100px;
     width: 100px;
     clip-path: circle(50% at 50% 50%);
+      object-fit: cover;
     
 }
 #card9 h3 {
@@ -425,7 +434,8 @@ main {
 #card10 img {
     height: 100px;
     width: 100px;
-    clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%); 
+     object-fit: cover;
     
 }
 #card10 h3 {
