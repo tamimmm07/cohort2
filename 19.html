@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>css grid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color:rgb(0, 0, 0);
+      }
+      html,body {
+        height: 100%;
+        width: 100%;
+
+      }
+      main{
+        height: 100%;
+        background-color:white;
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 37%  26% 37%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "left-top top-centre top-right"
+                              "left-top centre right-bottom"
+                              "left-bottom left-bottom  right-bottom"
+                              ;
+
+      }
+      .centre {
+        background-color: palevioletred;
+        grid-area: centre;
+
+      }
+       .left-top {
+        background-color: rgb(125, 0, 42);
+        grid-area: left-top;
+        
+      }
+        .left-bottom {
+        background-color: rgb(235, 27, 0);
+        grid-area: left-bottom;
+      }
+          .top-centre {
+        background-color:darkmagenta;
+        grid-area:top-centre;
+
+      }
+      .right-bottom {
+        background-color: rgb(0, 188, 235);
+        grid-area: right-bottom ;
+      }
+      .top-right{
+        background-color: rgb(118, 0, 235);
+        grid-area: top-right;
+      }
+      
+  </style>
+  </head>
+  <body>
+    <main>
+    <div class="left-top">left-top</div>
+    <div class="left-bottom">left-bottom</div>
+    <div class="top-centre">top-centre</div>
+    <div class="top-right">top-right</div>
+    <div class="right-bottom">right-bottom"</div>
+
+    <div class="centre">centre</div>
+    </main>
+  </body>
+</html>
