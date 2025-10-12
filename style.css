@@ -1,25 +1,3 @@
-.red {
-  padding: 12px 18px;
-  border: none;
-  border-radius: 19px;
-  margin: 20px;
-  background-color: red;
-  color: black;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-
-.blue {
-  padding: 12px 18px;
-  border: none;
-  border-radius: 19px;
-  margin: 20px;
-  background-color: blue;
-  color: red;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +7,47 @@
 html, body {
   height: 100%;
   width: 100%;
-  color: aqua;
-  background-color: #000;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 18px;
+}
+main section {
+  height: 100%;
+  width: 120px;
+  background-color: black;
+  flex-grow: 1;
+  transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+main section:nth-child(1) {
+  background-image: url(./c0d137f1d4d99544e1836fa081fa79b4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section:nth-child(2) {
+  background-image: url(./Neymar\ Santos\ Bow.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section:nth-child(3) {
+  background-image: url(./ae1d3405d1c069be5dc66a306ac390f0.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section:nth-child(5) {
+  background-image: url(./71132f773a39d206301413b4cc64290e.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section:nth-child(4) {
+  background-image: url(./999c33c913073add40b0e8effb2feff2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+section:hover {
+  flex-grow: 4;
 }/*# sourceMappingURL=style.css.map */
