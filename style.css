@@ -1,251 +1,34 @@
-@font-face {
-    font-family: tameem;
-    src: url(./Breaking\ Road.ttf);
+.red {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 19px;
+  margin: 20px;
+  background-color: red;
+  color: black;
+  cursor: pointer;
+  text-transform: capitalize;
 }
-@font-face {
-    font-family: tameem2;
-    src: url(./RUSTY\ ATTACK\ DEMO\ Regular.otf);
-}
-@font-face {
-    font-family: tameem3;
-    src: url(./Mistake\ Note.otf);
+
+.blue {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 19px;
+  margin: 20px;
+  background-color: blue;
+  color: red;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-}
-
-main {
-      height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 50% 1fr;
-    grid-template-areas: "header header"
-                         "aside section "
-                         " bottom-left bottom-right";
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    grid-area: header;
-    height: 80px;
-
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    margin: 10px;
-    text-transform: capitalize;
-    font-weight: 300;
-    font-size: 14px;
-    padding: 5px;
-
-}
-
-#logo {
-    margin-left: 40px;
-}
-
-.nav {
-
-    margin: 70px;
-}
-
-#button2 {
-    border-radius: 20px;
-    padding: 10px 12px;
-    margin: 10px;
-    border: none;
-    background-color: black;
-    color: whitesmoke;
-    font-size: 14px;
-    margin-right: 40px;
-}
-.ri-arrow-right-up-fill {
-    background-color: rgb(66, 66, 186);
-    border-radius: 50%;
-    font-size: 17px;
-}
-
-#button1 {
-    border-radius: 20px;
-    background-color: transparent;
-    padding: 5px 12px;
-    border: none;
-
-
-}
-
-
-#button1:hover {
-    transform: scale(1.2);
-    border: 2px solid black;
-     overflow: hidden;
-}
-
-#button2:hover {
-    transform: scale(1.2);
-    border: 2px solid black;
-     overflow: hidden;
-}
-
-
-
-section {
-    grid-area: section;
-    
-}
-section img {
-    height: 300px;
-    width: 500px;
-}
-
-.bottom-right {
-    grid-area: bottom-right;
-
-}
-
-.bottom-left {
-    grid-area: bottom-left;
-}
-aside img {
-    margin-left: 40px;
-    border-radius: 70px;
-}
-aside h1 {
-    font-size: 50px;
-    text-transform: capitalize;
-   
-    font-weight: 300;
-    
-}
-button {
-    cursor: pointer;
-}
-aside {
-    grid-area: aside;
-    
-}
-.centre-content {
-    display: flex;
-    justify-content: space-evenly;
-}
-#heading2 {
-    text-align: center;
-    margin: 10px;
-}
-.artificial {
-    display:flex;
-    justify-content: space-evenly;
-    
-}
-.we-work {
-    background:#fff;
-    padding: 10px 30px;
-    border-radius: 30px;
-    text-transform: uppercase;
-    border: 2px solid black;
-    margin-top: 10px;
-    height: 40px;
-
-}
-.we-work:hover {
-    transform: scale(1.3);
-    overflow: hidden;
-    background-color: black;
-    border: 2px solid #fff;
-    text-transform: uppercase;
-    color: white;
-}
-.heading4 {
-    text-align: center;
-    margin: 10px;
-     font-size: 50px;
-    text-transform: capitalize;
-   
-    font-weight: 300;
-}
-#bottom-btn {
-    padding: 10px 25px;
-    text-transform: uppercase;
-     margin:30px 45px;
-     background-color: black;
-     color: white;
-     font-size: small;
-     border: none;
-     border-radius: 70px;
-     
-}
-.left-bottom-top a {
-    text-decoration:underline;
-    color: black;
-    margin: 10px;
-    text-transform: capitalize;
-    font-weight: 300;
-    font-size: 23px;
-     margin:30px 45px;
-    padding: 5px;
-}
-.left-bottom-top{
-    display: flex;
-    justify-content: space-around;
-}
-.left-bottom-p p {
-    margin: 10px 30px;
-    font-size: 13px;
-}
-.name {
-    display: flex;
-    justify-content:space-evenly ;
-    text-transform: capitalize;
-    font-family: t;
-}
-#list1 {
-     font-family: tameem;
-}
-#list2 {
-     font-family:tameem2;
-     margin-top: 10px;
-}
-#list3 {
-     font-family: tameem3;
-}
-#bottom-btn:hover {
-     transform: scale(1.2);
-     overflow: hidden;
-}
-.section img {
-    margin-left:  100px;
-    height: 250px;
-    width: 500px;
-    border-radius: 30px;
-    object-fit: cover;
-}
-.bottom-right img {
-    height: 170px;
-    width: 260px;
-    border-radius: 30px;
-    object-fit: cover;
-
-
-}
-
-.bottom-right {
-    display: flex;
-   justify-content: space-evenly;
-     gap: 10px;
-} 
+html, body {
+  height: 100%;
+  width: 100%;
+  color: aqua;
+  background-color: #000;
+}/*# sourceMappingURL=style.css.map */

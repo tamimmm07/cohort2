@@ -1,0 +1,31 @@
+@import "button";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin flexcenter() {
+     text-align: center;
+    display:flex ;
+    border: 2px solid purple;
+    border-radius: 4px;
+        justify-content: space-around;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    color: aqua;
+    background-color: #000;
+     
+}
+
+
+
+
+
+
+
+
+
