@@ -1,53 +1,209 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @font-face {
+    font-family: font;
+    src: url(./helvetica-255/Helvetica.ttf);
+  }
+  
+  
+  *{
+margin:0%;
+padding:0%;
+font-family: font;
+box-sizing: border-box;
 }
-
-html, body {
-  height: 100%;
-  width: 100%;
+html,body{
+width: 100%;
+height: 100%;
 }
-
 main {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  gap: 18px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#88A672, #809B6D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-main section {
-  height: 100%;
-  width: 120px;
-  background-color: black;
-  flex-grow: 1;
-  transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+.container {
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 47% 1fr;
+   grid-template-rows: 70px 1fr;
+   grid-template-areas: "header header"
+                        "left right";
 }
-main section:nth-child(1) {
-  background-image: url(./c0d137f1d4d99544e1836fa081fa79b4.jpg);
-  background-position: center;
-  background-size: cover;
+header nav a {
+    text-decoration: none;
+    padding: 17px;
+    text-transform: capitalize;
+    color: #606060;
+    font-size: 12px;
+    letter-spacing:0.5px;
+   
 }
-main section:nth-child(2) {
-  background-image: url(./Neymar\ Santos\ Bow.jpg);
-  background-position: center;
-  background-size: cover;
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    grid-area: header;
+    width: 100%;
 }
-main section:nth-child(3) {
-  background-image: url(./ae1d3405d1c069be5dc66a306ac390f0.jpg);
-  background-position: center;
-  background-size: cover;
+#contact-btn {
+    padding: 8px 18px;
+    border-radius: 28px;
+    border: 1px solid rgb(11, 11, 11);
+    background: transparent;
+    text-transform: capitalize;
+    cursor: pointer;
 }
-main section:nth-child(5) {
-  background-image: url(./71132f773a39d206301413b4cc64290e.jpg);
-  background-position: center;
-  background-size: cover;
-}
-main section:nth-child(4) {
-  background-image: url(./999c33c913073add40b0e8effb2feff2.jpg);
-  background-position: center;
-  background-size: cover;
+.logo {
+    font-weight: 600;
+    font-size: 19px;
+    color: #C8C4DB;
 }
 
-section:hover {
-  flex-grow: 4;
-}/*# sourceMappingURL=style.css.map */
+#heading1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 40px;
+
+}
+#heading2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+#left-p {
+    font-size: 13px;
+    text-transform: capitalize;
+    width:350px;
+    margin: 4% 18%;
+    padding: 10px;
+}
+.left{
+    grid-area: left;
+}
+.buttons-left {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+   }
+.class {
+      padding: 8px 18px;
+    border-radius: 28px;
+    border: none;
+    background: #C0ADE6;
+    
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    
+
+}
+.class2{
+       padding: 8px 18px;
+    border-radius: 28px;
+    border: 1px solid rgb(11, 11, 11);
+    background: transparent;
+    text-transform: capitalize;
+    cursor: pointer;
+
+
+}
+.stats-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+margin-left: 70px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.stat p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background-color: #ccc;
+}
+
+.icon svg {
+  margin-bottom: 4px;
+}
+.right {
+    grid-area: right;
+}
+#first-image img {
+
+  width: 189px;
+  height: 160px;
+  object-fit: cover;
+clip-path: path("M0,0 H160 Q189,0 189,29 V160 H0 Z");
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+
+#second-image img {
+
+  width: 190px;
+  height: 160px;
+  object-fit: cover;
+clip-path: path("M0,0 H160 Q189,0 189,29 V160 H0 Z");
+  border-radius: 20px;
+  margin-top: 80px;
+  
+}
+.left-image {
+  display: flex;
+  margin-left: 30px;
+  gap: 20px;
+}
+
+.last-image img {
+   width: 230px;
+  height: 170px;
+  object-fit: cover;
+  
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-right: 20px;
+}
+.sg {
+clip-path: circle(50% at 50% 50%);
+  background-color:#B1CEEC;
+  height: 20px;
+  width: 20px;
+  margin-left: 60%;
+  margin-top: -13%;
+}
+.purple {
+  clip-path: circle(50% at 50% 50%);
+  height: 15px;
+  width: 15px;
+  margin-left: 65%;
+  margin-top: -50%;
+  background-color: #B7ACD4;
+}
